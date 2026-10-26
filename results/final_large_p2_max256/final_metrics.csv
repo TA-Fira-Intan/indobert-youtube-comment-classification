@@ -1,0 +1,2 @@
+model,max_length,checkpoint,test_loss,test_accuracy,test_precision,test_recall,test_f1_macro
+IndoBERT Large P2,256,/content/drive/MyDrive/TA EKUIVALENSI/Revisi 27 08/models/indobert_large_p2_max256/checkpoint-1526,1.384013056755066,0.5130890052356021,0.504151091874877,0.5126794258373206,0.5015583537212513

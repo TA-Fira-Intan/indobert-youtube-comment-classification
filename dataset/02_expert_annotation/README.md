@@ -1,9 +1,8 @@
-# Expert Annotation
+# Annotation Audit Dataset
 
-This directory contains documentation related to the expert annotation process.
+This directory contains the dataset after the annotation audit process.
 
-The annotation process was conducted to classify Indonesian-language YouTube comments into five categories (C0–C4) based on the established annotation guidelines.
+The audit process is conducted to review and refine the annotated comments before proceeding to subsequent dataset preparation stages.
 
-The annotation results serve as the reference for dataset construction and subsequent classification experiments.
+The resulting dataset serves as the basis for the next stage of dataset construction, including C4 category completion and class balancing.
 
-**Note:** Annotation files containing personal or confidential information should not be published without appropriate permission.

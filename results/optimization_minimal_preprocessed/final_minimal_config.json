@@ -1,0 +1,16 @@
+{
+    "model": "IndoBERT Large P2",
+    "model_name": "indobenchmark/indobert-large-p2",
+    "preprocessing": "minimal",
+    "text_column": "Komentar_preprocessed",
+    "label_column": "Kode Label",
+    "max_length": 256,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "class_weighted": false,
+    "label_smoothing": false,
+    "max_epochs": 10,
+    "early_stopping_patience": 2,
+    "best_checkpoint": "/content/minimal_large_p2_model/checkpoint-1526",
+    "best_validation_f1": 0.5194194546281354
+}

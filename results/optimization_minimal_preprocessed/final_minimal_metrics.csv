@@ -1,0 +1,2 @@
+model,preprocessing,max_length,learning_rate,weight_decay,class_weighted,max_epochs,early_stopping_patience,validation_accuracy,validation_precision,validation_recall,validation_f1_macro,test_accuracy,test_precision,test_recall,test_f1_macro,best_checkpoint,best_validation_f1
+IndoBERT Large P2,minimal,256,2e-05,0.01,False,10,2,0.5380577427821522,0.547930376431874,0.5388243335611757,0.5194194546281354,0.4738219895287958,0.4706935549558501,0.47323991797676007,0.45546400511455254,/content/minimal_large_p2_model/checkpoint-1526,0.5194194546281354

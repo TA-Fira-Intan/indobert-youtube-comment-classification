@@ -15,6 +15,7 @@ The study focuses on informal Indonesian language, contextual expressions, and t
 - Evaluate the effect of hyperparameter optimization.
 - Investigate the impact of contextual embedding and text processing strategies.
 - Analyze classification performance using standard evaluation metrics.
+- Examine incorrect predictions through model error analysis.
 
 ## 3. Classification Categories
 
@@ -53,12 +54,14 @@ The experiments are organized into the following stages:
 6. Text chunking experiment.
 7. Text slicing experiment.
 8. Minimal preprocessing experiment.
+9. Final fine-tuning and model error analysis.
 
 ## 6. Repository Structure
 
 ```text
 indobert-youtube-comment-classification/
 ├── dataset/
+│
 ├── notebooks/
 │   ├── 01_EDA_Dataset_Anotasi_Pakar.ipynb
 │   ├── 02_Balancing_Dataset.ipynb
@@ -71,9 +74,17 @@ indobert-youtube-comment-classification/
 │   ├── 09_Text_Chunking_Experiment.ipynb
 │   ├── 10_Text_Slicing_Experiment.ipynb
 │   ├── 11_Preprocessing_Minimal_IndoBERT.ipynb
-│   └── 12_Minimal_Preprocessing_Experiment.ipynb
+│   ├── 12_Minimal_Preprocessing_Experiment.ipynb
+│   └── 13_Final_Fine_Tuning_and_Error_Analysis.ipynb
+│
+├── results/
+│   ├── final_large_p2_max256/
+│   ├── optimization_large_p2/
+│   └── optimization_minimal_preprocessed/
+│
 ├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## 7. Evaluation Metrics
@@ -93,6 +104,10 @@ The classification results are intended for research and preliminary identificat
 
 ## 9. Reproducibility
 
-The Jupyter notebooks document the dataset preparation, model evaluation, and experimental procedures used in this research.
+The Jupyter notebooks document the dataset preparation, model training, experimental procedures, and final evaluation process.
 
-Further details regarding the software environment, dependencies, and dataset availability will be provided in the corresponding repository files.
+The `requirements.txt` file lists the Python libraries required to reproduce the research environment.
+
+Experimental evaluation outputs, including classification reports, confusion matrices, and model metrics, are provided in the `results/` directory.
+
+Dataset availability is documented in the `dataset/` directory, subject to applicable data-sharing and privacy considerations.

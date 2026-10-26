@@ -1,0 +1,25 @@
+# Data manipulation
+pandas
+numpy
+openpyxl
+
+# Data visualization
+matplotlib
+seaborn
+
+# Text preprocessing
+Sastrawi
+nltk
+tqdm
+
+# Machine learning and evaluation
+scikit-learn
+
+# Deep learning
+torch
+
+# IndoBERT and Hugging Face
+transformers
+datasets
+accelerate
+sentencepiece

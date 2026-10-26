@@ -1,0 +1,2 @@
+model,max_length,learning_rate,weight_decay,class_weighted,test_loss,test_accuracy,test_precision,test_recall,test_f1_macro
+IndoBERT Large P2,256,2e-05,0.01,True,3.8931334018707275,0.5078534031413613,0.5151333740885979,0.5074846206425153,0.5086613223377929

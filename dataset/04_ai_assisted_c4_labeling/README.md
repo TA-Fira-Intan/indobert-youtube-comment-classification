@@ -1,9 +1,9 @@
 # AI-Assisted C4 Labeling
 
-This directory documents the AI-assisted labeling process used to supplement the ambiguous class (C4).
+This directory contains the dataset after the addition of C4 (Ambiguous Expressions) samples through an AI-assisted labeling process.
 
-The process used expert-annotated C4 comments as reference examples to identify and label 214 additional comments with similar ambiguous characteristics.
+The additional samples are incorporated to address the limited number of instances in the C4 category before the dataset balancing stage.
 
-The additional data were incorporated into the dataset before class balancing.
+The resulting dataset is used as input for the subsequent class balancing process.
 
-**Note:** The 214 additional comments were labeled with AI assistance and were not directly annotated by the expert.
+**Note:** The labeling procedure and validation status of the additional samples should be documented transparently.
